@@ -1,0 +1,43 @@
+{
+  "id": "teamandtext",
+  "type": "SharedSlice",
+  "name": "Teamandtext",
+  "description": "Teamandtext",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "imageteam": {
+          "type": "Image",
+          "config": {
+            "label": "imageteam",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "team": {
+          "type": "Text",
+          "config": {
+            "label": "team",
+            "placeholder": ""
+          }
+        },
+        "texta_bout": {
+          "type": "StructuredText",
+          "config": {
+            "label": "texta bout",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

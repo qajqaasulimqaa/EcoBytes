@@ -1,0 +1,39 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"main_text": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ex cupidatat labore eu voluptate irure tempor non ullamco consectetur tempor. Id proident laboris sint nostrud eiusmod ex nostrud veniam ullamco ullamco aliqua adipisicing deserunt."
+						}
+					}
+				]
+			},
+			"text": {
+				"__TYPE__": "FieldContent",
+				"value": "supply",
+				"type": "Text"
+			},
+			"text2": {
+				"__TYPE__": "FieldContent",
+				"value": "rocky",
+				"type": "Text"
+			},
+			"read_more": {
+				"__TYPE__": "LinkContent",
+				"key": "b277042e-479a-4b35-8672-f1ee4cc9e6ab",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://google.com",
+					"text": "party"
+				}
+			}
+		},
+		"items": []
+	}
+]

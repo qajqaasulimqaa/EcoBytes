@@ -1,0 +1,53 @@
+{
+  "id": "introtext",
+  "type": "SharedSlice",
+  "name": "Introtext",
+  "description": "Introtext",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "main_text": {
+          "type": "StructuredText",
+          "config": {
+            "label": "main_text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "text": {
+          "type": "Text",
+          "config": {
+            "label": "text",
+            "placeholder": ""
+          }
+        },
+        "text2": {
+          "type": "Text",
+          "config": {
+            "label": "text2",
+            "placeholder": ""
+          }
+        },
+        "read_more": {
+          "type": "Link",
+          "config": {
+            "label": "Read more",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

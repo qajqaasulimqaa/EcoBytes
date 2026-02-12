@@ -1,0 +1,39 @@
+{
+  "format": "custom",
+  "id": "navbar",
+  "label": "navbar",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "about_us": {
+        "type": "Link",
+        "config": {
+          "label": "about_us",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": false
+        }
+      },
+      "read_more": {
+        "type": "Link",
+        "config": {
+          "label": "Read more",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": false
+        }
+      }
+    }
+  }
+}
